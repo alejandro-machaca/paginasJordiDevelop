@@ -1,0 +1,491 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+.offset:before {
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
+
+.phoneNumber{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  color: white;
+  text-align: right;
+  padding-right: 3.4rem;
+  text-shadow: .1rem .1rem .8rem black;
+  background: transparent!important;
+}
+
+.container-fluid {
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+  background: transparent!important;
+  text-shadow: .1rem .1rem .8rem black;
+  /* padding: 0rem 1rem !important; */
+  padding: 2rem 3rem !important;
+}
+
+.navbar a {
+  cursor: pointer;
+}
+
+.carousel .btn {
+  font-size: 1.4rem!important;
+}
+
+.navbar-brand img {
+  height: 2.7rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-item .nav-link.hover {
+  color: white !important;
+}
+
+/*============= Logo Empresa =============*/
+
+.divTituloLogo {
+  position: absolute;
+  z-index: 10;
+  background: transparent;
+  top: -11px;
+  width: 100%;
+  
+}
+
+.franjaArriba {
+  background: rgb(250, 122, 2);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 3rem;
+}
+
+.franjaAbajo {
+  background: rgb(250, 122, 2);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.franjaCentral {
+  /*background: rgb(60, 235, 7);*/
+  background: rgb(52, 204, 6);
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  white-space: nowrap;
+}
+
+.franjaCentral .titulo1 {
+  width: 20%;
+  display: inline;
+  padding-left: 3rem;
+  padding-right: 13rem;
+}
+
+.franjaCentral .titulo3 {
+  width: 20%;
+  display: inline;
+}
+
+.franjaCentral h1 {
+  color: #fff;
+  text-shadow: .1rem .1rem .8rem black;
+  /* text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000; */
+  display: inline;
+}
+
+.divTituloLogo .divtitulo2 {
+  position: absolute;
+  left: 22rem;
+}
+
+.divTituloLogo .divtitulo2 img {
+  
+  width: 25%;
+  height: 25%;
+  z-index: 20;
+}
+
+/*============= Logo Empresa =============*/
+
+
+/*============= Slider =============*/
+
+.carousel-item{
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.carousel-item{
+  height: 100vh;
+}
+
+.carousel-caption{
+  position: absolute;
+  top: 30%;
+  text-transform: uppercase;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.carousel-caption .divSpace {
+  height: 3rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+
+/*============= End Slider =============*/
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .btn-md {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+  }
+  .jumbotron {
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+    margin-bottom: 0;
+  }
+  h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+  }
+
+  .heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 0rem;
+  }
+
+  /*============= Portfolio =============*/
+  
+
+  .portfolio img {
+    max-width: 100%;
+    transition: transform .5s ease;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio h1 {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.portfolio h3 {
+  color: white;
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+  .row.no-padding [class*=col-] {
+    padding: 0;
+  }
+  .portfolio img:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+  }
+  
+  .portafolio {
+    overflow: hidden;
+    padding-left: 2rem!important;
+    padding-right: 2rem!important;
+    padding-bottom: 3rem;
+
+    background: url(img/jardin5.jpg) no-repeat center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .portafolio .jumbotron h3{
+    color: #fff;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+
+  .jumbotron {
+    background-color: transparent!important;
+    padding: 2rem 1rem!important;
+    padding-bottom: 0rem!important;
+    margin-bottom: 0rem!important;
+  }
+
+  .jumbotron h3 {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    /* padding-bottom: 1.9rem; */
+  }
+
+  /*--- Team ---*/
+
+  .team {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  /*--- Contact ---*/
+
+  footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 0rem;
+  }
+  footer img{
+    height: 3rem;
+    margin: 1.5rem 0;
+  }
+  footer a{
+    color: white;
+  }
+
+  footer 
+  .fa-facebook-square,
+  .fa-twitter-square,
+  .fa-instagram
+   {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+  }
+
+  footer 
+  .fa-facebook-square:hover,
+  .fa-twitter-square:hover,
+  .fa-instagram:hover
+   {
+    color: #1ebba3;
+  }
+
+  hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+  }
+
+  /*--- Detalle ---*/
+  .detalle {
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding-top: 7rem;
+  }
+
+  .contacto {
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding-top: 9rem;
+  }
+
+  .datos {
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding-top: 9rem;
+  }
+
+  .info {
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-top: 7rem;
+  }
+  .contacto .btn-primary[disabled] {
+    opacity: 0.4!important;
+  }
+
+  .datos .btn-primary[disabled] {
+    opacity: 0.4!important;
+  }
+
+  .message{
+    padding: 5px;
+    width: 50%;
+    border: 1px solid #eee;
+  }
+
+  .success {
+    background: green;
+    color: white;
+  }
+
+  .failed {
+    background: red;
+    color: white;
+  }
+
+  .info .card {
+    margin : 0rem;
+  }
+  
+  /* Medium (md) devices (tablets, 768px and up) */
+  @media (max-width: 767px) {
+    
+    .carousel-caption h1 {
+      font-size: 2.3rem;
+      letter-spacing: .3rem;
+      padding-bottom: 1rem;
+    }
+    .carousel-caption h3 {
+      font-size: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+    .btn-lg {
+      font-size: 1rem;
+    }
+    .narrow h1{
+      font-size: 1.5rem;
+    }
+    p.lead {
+      font-size: 1rem;
+    }
+
+    .message{
+      width: 100%;
+    }
+
+  }
+
+
+  @media (max-width: 576px) {
+    .navbar-brand {
+      width: 70%;
+    }
+
+    .navbar-toggler {
+      
+      background-color: lightslategrey!important;
+      /*background-color: mediumseagreen!important;*/
+    }
+
+    .franjaCentral .titulo1 {
+      padding-right: 2rem!important;
+    }
+
+    #navbar-button-toggler {
+      visibility: hidden;
+    }
+
+    .carousel-caption .divSpace {
+      height: 0rem;
+    }
+
+    .carousel-caption .divBotonNext {
+      visibility: hidden;
+    }
+
+  }
+
+  /* Small (sm) devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+    .franjaCentral .titulo1 {
+      padding-right: 2rem!important;
+    }
+  }
+
+  /* Medium (md) devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    .franjaCentral .titulo1 {
+      padding-right: 2rem!important;
+    }
+  }
+
+  /*============ BOOTSTRAP BREAK POINTS:
+  
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  
+  =============*/
